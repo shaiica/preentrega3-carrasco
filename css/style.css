@@ -1,0 +1,33 @@
+.catalogo {
+    display: flex;
+    justify-content: space-between;
+}
+.prod{
+    background-color: aqua;
+}
+.bod{
+    background-color: #FBEAFF;
+}
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.carrito {
+    margin-top: 20px;
+}
+
+.lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 5px;
+}

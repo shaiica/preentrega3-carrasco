@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bod">
+    <h1 class="prod">Productos</h1>
+
+<div class="catalogo">
+<div class="producto">
+    <h3>Campera</h3>
+    <img src="./assets/img/campera.jpeg" alt="Campera invierno">
+    <p>Precio: $17000</p>
+    <button onclick="agregarProducto('Campera invierno', 17000)">Agregar</button>
+</div>
+<div class="producto">
+    <h3>Termica</h3>
+    <img src="./assets/img/termica.jpeg" alt="Remera termica negra">
+    <p>Precio: $8000</p>
+    <button onclick="agregarProducto('Termica negra', 8000)">Agregar</button>
+</div>
+<div class="producto">
+    <h3>Guante adidas</h3>
+    <img src="./assets/img/guanteadidas.jpeg" alt="Guante adidas negro">
+    <p>Precio: $1500</p>
+    <button onclick="agregarProducto('Guante', 1500)">Agregar</button>
+</div>
+<div class="producto">
+    <h3>Palo hockey</h3>
+    <img src="./assets/img/palobrabo.jpeg" alt="Palo hockey verde">
+    <p>Precio: $20000</p>
+    <button onclick="agregarProducto('Palo de Hockey', 20000)">Agregar</button>
+</div>
+
+</div>
+
+<h2>Carrito de compras</h2>
+<div class="carrito">
+    <ul class="lista-carrito"></ul>
+    <p class="total">Total: $0</p>
+    <button onclick="limpiarCarrito()">Limpiar carrito</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
